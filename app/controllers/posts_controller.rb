@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  authorizer "main#my_cognito", only: %w[index]
+  #authorizer "main#my_cognito", only: %w[index]
   before_action :set_post, only: [:show, :update, :delete]
 
   # GET /posts
