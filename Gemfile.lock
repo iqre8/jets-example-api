@@ -45,11 +45,11 @@ GEM
       rainbow
       thor
       zeitwerk
-    aws-partitions (1.298.0)
+    aws-partitions (1.303.0)
     aws-sdk-apigateway (1.38.0)
       aws-sdk-core (~> 3, >= 3.71.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-cloudformation (1.32.0)
+    aws-sdk-cloudformation (1.33.0)
       aws-sdk-core (~> 3, >= 3.71.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-cloudwatchlogs (1.29.0)
@@ -72,7 +72,7 @@ GEM
     aws-sdk-lambda (1.39.0)
       aws-sdk-core (~> 3, >= 3.71.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-s3 (1.61.2)
+    aws-sdk-s3 (1.63.0)
       aws-sdk-core (~> 3, >= 3.83.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.1)
@@ -118,7 +118,7 @@ GEM
     hashie (4.1.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
-    jets (2.3.15)
+    jets (2.3.16)
       actionmailer (~> 6.0.0)
       actionpack (~> 6.0.0)
       actionview (~> 6.0.0)
@@ -142,7 +142,6 @@ GEM
       hashie
       jets-gems
       jets-html-sanitizer
-      json
       kramdown
       memoist
       mimemagic
@@ -159,8 +158,8 @@ GEM
     jets-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
     jmespath (1.4.0)
-    json (2.3.0)
-    kramdown (2.1.0)
+    kramdown (2.2.1)
+      rexml
     launchy (2.5.0)
       addressable (~> 2.7)
     loofah (2.5.0)
@@ -196,6 +195,7 @@ GEM
     rake (13.0.1)
     recursive-open-struct (1.1.1)
     regexp_parser (1.7.0)
+    rexml (3.2.4)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
